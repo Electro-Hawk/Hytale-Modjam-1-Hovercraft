@@ -1,0 +1,25 @@
+{
+  "Group": "Modjam",
+  "Name": "ModJam Hovercraft",
+  "Version": "1.0.0",
+  "Description": "Firs mod jam",
+  "Authors": [
+    {
+      "Name": "octarock",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Electro_Hawk",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

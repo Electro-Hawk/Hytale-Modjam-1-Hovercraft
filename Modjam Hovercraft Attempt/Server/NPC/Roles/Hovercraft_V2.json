@@ -1,0 +1,31 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Animal_Neutral",
+  "Modify": {
+    "Appearance": "Hovercraft_Model",
+    "DropList": "Drop_Hovercraft",
+    "MaxHealth": 10,
+    "MaxSpeed": 0.1,
+    "ViewRange": 1,
+    "WeightGreet": 15,
+    "WeightFollowItem": 30,
+    "WeightFollow": 10,
+    "WeightIgnore": 50,
+    "ProduceItem": "Ingredient_Charcoal",
+    "IsMemory": true,
+    "BreathesInWater": true,
+    "IsMountable": true,
+    "MountAnchorX": 0,
+    "MountAnchorY": 1,
+    "MountAnchorZ": 0,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Horse.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

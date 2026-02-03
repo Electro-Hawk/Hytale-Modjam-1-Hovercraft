@@ -1,0 +1,35 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Animal_Neutral",
+  "Modify": {
+    "Appearance": "Hovercraft_Model",
+    "LovedItems": [
+      "Rock_Gem_Sapphire"
+    ],
+    "DropList": "Drop_Horse",
+    "MaxHealth": 1000,
+    "MaxSpeed": 0.1,
+    "ViewRange": 15,
+    "ChanceToTurnFriendly": 30,
+    "ChanceToTurnFriendlyWithAttractiveItem": 70,
+    "WeightGreet": 15,
+    "WeightFollowItem": 30,
+    "WeightFollow": 10,
+    "WeightIgnore": 50,
+    "ProduceItem": "Ingredient_Charcoal",
+    "IsMemory": true,
+    "IsMountable": true,
+    "MountAnchorX": 0,
+    "MountAnchorY": 1,
+    "MountAnchorZ": 0,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Horse.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

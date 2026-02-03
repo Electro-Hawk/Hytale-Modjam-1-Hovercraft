@@ -1,0 +1,37 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Animal_Neutral",
+  "Modify": {
+    "Appearance": "Hovercraft_Model",
+    "FlockArray": [
+      "Horse_Skeleton",
+      "Horse_Skeleton_Armored"
+    ],
+    "DropList": "Drop_Horse_Skeleton",
+    "MaxHealth": 160,
+    "MaxSpeed": 10,
+    "ViewRange": 15,
+    "AttackWhenStartled": true,
+    "Attack": "Root_NPC_Attack_Melee",
+    "ChanceToTurnFriendly": 30,
+    "WeightGreet": 15,
+    "WeightFollowItem": 30,
+    "WeightFollow": 10,
+    "WeightIgnore": 50,
+    "IsMemory": true,
+    "MemoriesCategory": "Undead",
+    "IsMountable": true,
+    "MountAnchorX": 0,
+    "MountAnchorY": 1.6,
+    "MountAnchorZ": 0,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Horse_Skeleton.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}
